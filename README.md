@@ -1,5 +1,15 @@
-#  LNP Predictor Toolkit
-This toolkit predicts lipid nanoparticle (LNP) characteristics based on user inputs using pretrained machine learning models.
+# LNP Predictor Toolkit
+
+This toolkit predicts lipid nanoparticle (LNP) characteristics from user-provided inputs using pretrained machine learning models.
+The prediction workflow is based on random forest feature importance analysis trained on kMC simulation data and experimentally validated results.
+
+## Citation
+**Controlling Payload Heterogeneity in Lipid Nanoparticles for RNA-Based Therapeutics**  
+Turash Haque Pial, Sixuan Li, Jinghan Lin, Tza-Huei Wang, Hai-Quan Mao, Tine Curk  
+*Advanced Functional Materials*, First published: 16 January 2026  
+DOI: [10.1002/adfm.202526278](https://doi.org/10.1002/adfm.202526278)
+Full article:  
+https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adfm.202526278
 
 ## Folder Contents
 - `read_trained_predict_modified.py`: Python script to collect input and make predictions, to local run
