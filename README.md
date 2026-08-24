@@ -2,13 +2,13 @@
 This toolkit predicts lipid nanoparticle (LNP) characteristics based on user inputs using pretrained machine learning models.
 
 ## Folder Contents
-- `read_trained_predict_modified.py`: Python script to collect input and make predictions
+- `read_trained_predict_modified.py`: Python script to collect input and make predictions, to local run
 - `LNP_Predictor.ipynb`: Google Colab-compatible notebook
 - `lnp_radius_vs_time.csv`: Time-vs-radius data used for interpolating R₀ from mixing time
 - `*.pkl`: Trained Random Forest models and scalers
 
 ##How to Use 
-### In Google Colab:
+### In Google Colab, if you don't want to run locally:
 1. Upload this folder to Google Drive, e.g., `MyDrive/LNP_Predictor_Colab/`
 2. Open `LNP_Predictor.ipynb` in Google Colab (double clicks autometicaaly opens in colab for this file type)
 3. Follow prompts in the notebook or run the script manually:
